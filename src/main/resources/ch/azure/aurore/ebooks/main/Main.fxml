@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ch.azure.aurore.ebooks.main.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <MenuBar>
+            <Menu fx:id="fileMenu" text="File">
+            </Menu>
+
+        </MenuBar>
+    </top>
+
+    <center>
+
+        <TextArea>main</TextArea>
+<!--        <WebView fx:id="webView"></WebView>-->
+    </center>
+
+</BorderPane>
